@@ -2,7 +2,7 @@
 	<name>Timothy Schumacher's public_html</name>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>tschumacher</groupId>
-	<artifactId>xlink</artifactId>
+	<artifactId>public_html</artifactId>
 	<version>0.01</version>
 	<packaging>war</packaging>
 
