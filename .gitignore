@@ -8,3 +8,4 @@
 nbproject
 META-INF
 glassfish-web.xml
+/WEB-INF/target/
