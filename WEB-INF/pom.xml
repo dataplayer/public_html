@@ -4,7 +4,7 @@
 	<groupId>tschumacher</groupId>
 	<artifactId>xlink</artifactId>
 	<version>0.01</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,6 +17,13 @@
 			<artifactId>jersey-server</artifactId>
 			<version>1.17.1</version>
 		</dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-catalina</artifactId>
+            <version>7.0.42</version>
+            <scope>provided</scope>
+        </dependency>
+            
 	</dependencies>
 
 	<build>
