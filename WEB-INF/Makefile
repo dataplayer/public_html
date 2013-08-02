@@ -1,5 +1,8 @@
 #Compile files from src/main/java to classes.
 
+.PHONY: default
+default: compile
+
 # Compile src/main/java -> classes
 .PHONY: compile
 compile:
