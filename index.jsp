@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
     <head>
         <title>Timothy Schumacher, Ph.D.</title>
