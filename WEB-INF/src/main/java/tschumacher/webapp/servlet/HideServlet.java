@@ -1,6 +1,7 @@
 package tschumacher.webapp.servlet;
 
 import java.io.IOException;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -16,6 +17,12 @@ import javax.servlet.http.HttpServletResponse;
 public final class HideServlet extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		resp.setStatus(HttpServletResponse.SC_NOT_FOUND);
+		RequestDispatcher requestDispatcher = this.getServletContext().getRequestDispatcher(NONEXISTENT_URL);
+		requestDispatcher.forward(req, resp);
 	}
+
+	/**
+	 * 	<p>A "fake" path so we will get the 404 error page configured for this application.</p>
+	 */
+	private final static String NONEXISTENT_URL = "/Nonexistent_url.error";
 }
