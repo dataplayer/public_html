@@ -1,6 +1,10 @@
 <html>
-    <head></head>
+    <head>
+        <title>Timothy Schumacher, Ph.D.</title>
+    </head>
     <body>
-        <h2>Hello, World!</h2>
+        <p>
+            Welcome to my home page. 
+        </p>
     </body>
 </html>
