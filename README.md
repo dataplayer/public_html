@@ -1,6 +1,8 @@
 public_html
 ===========
 
+Nic is here
+
 My playground for my public_html servlet application.
 
 I needed a quick way to duplicate my public_html web application, so I decided to play 
